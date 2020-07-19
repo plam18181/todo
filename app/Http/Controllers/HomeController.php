@@ -7,18 +7,12 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function index(){
-        return view('home');
+        return view('Home');
     }
-    public function create(){
-        return "1";
+    public function about(){
+        return view('about');
     }
-    public function store(){
-        return "1";
-    }
-    public function update($id){
-        return "1";
-    }
-    public function delete($id){
-        return "1";
+    public function contact(){
+        return view('contact');
     }
 }
